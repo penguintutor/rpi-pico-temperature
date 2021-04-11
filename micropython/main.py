@@ -1,0 +1,3 @@
+import tempdisplay
+
+tempdisplay.main()
