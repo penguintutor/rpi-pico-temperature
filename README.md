@@ -5,9 +5,7 @@ For more details see:
 http://www.penguintutor.com/projects/
 
 ## License
-This is under a GPL3 license as this is required due to the included libraries.
-
-The tempdisplay.py and temperaturebuffer.py code can be used under the MIT License.
+This is under the MIT License.
 
 This uses library code from Mike Causer (mcauser) 
 https://github.com/mcauser/micropython-am2320 
@@ -15,8 +13,8 @@ This is available under an MIT License.
 
 and
 
-Maker Portal (makerportal)
-https://github.com/makerportal/rpi-pico-ssd1306  
-This is available under a GPL3 License.
+The SSD1306 driver from the MicroPython repositories.
+
+https://github.com/micropython/micropython/blob/master/drivers/display/ssd1306.py
 
 The library code is included for convenience. If you would like a more recent version of those libraries then I recommend downloading them directly from the respective repositories.
