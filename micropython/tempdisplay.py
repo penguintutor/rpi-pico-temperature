@@ -9,7 +9,7 @@ def main():
     width  = 128 # SSD1306 horizontal resolution
     height = 32   # SSD1306 vertical resolution
 
-    i2c_dev = I2C(0,scl=Pin(1),sda=Pin(0),freq=200000)  # start I2C on I2C1 (GPIO 26/27)
+    i2c_dev = I2C(0,scl=Pin(1),sda=Pin(0),freq=200000)  # start I2C on I2C0 (GPIO 0/1)
     i2c_addr = [hex(ii) for ii in i2c_dev.scan()] # get I2C address in hex format
 
     sensor = am2320.AM2320(i2c_dev)
